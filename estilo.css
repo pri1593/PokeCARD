@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,300;0,700;1,400;1,500&display=swap');
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+ }
+
+body{
+    background-color: rgb(45, 45, 45);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    align-content: center;
+
+}
+img{
+    width: 400px;
+}
+
+.container{
+    display: flex;
+    max-width: 700px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 60px;
+    
+}
+.poke{
+    background-color: rgb(255, 201, 121);
+    width: 250px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.img-poke{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+}
+.poke-id{
+    position: absolute;
+    font-size:140px;
+    opacity:0.07;
+    z-index: 1;
+    top: 10px;
+}
+.tipo-poke{
+    font-weight: 600;
+    background-color: rgb(235, 41, 41);
+    border-radius: 20px;
+    width: 150px;
+    text-align: center;
+    color: #fff;
+}
